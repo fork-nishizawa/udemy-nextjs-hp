@@ -1,5 +1,5 @@
 import Link from 'next/link'
-const Post = ({ post }) => {
+export default function Post({ post }){
   return (
     <li>
       <span>{post.id}</span>
@@ -12,5 +12,3 @@ const Post = ({ post }) => {
     </li>
   )
 }
-
-export default Post
